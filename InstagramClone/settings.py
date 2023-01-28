@@ -166,3 +166,5 @@ LOGOUT_REDIRECT_URL = 'sign-in'
 LOGIN_URL = 'sign-in'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+ALLOWED_HOSTS = ['*']
