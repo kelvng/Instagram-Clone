@@ -116,8 +116,6 @@ def register(request):
             # return redirect('editprofile')
             return redirect('index')
 
-
-
     elif request.user.is_authenticated:
         return redirect('index')
     else:

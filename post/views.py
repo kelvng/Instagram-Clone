@@ -50,6 +50,7 @@ def index(request):
         'all_users': all_users,
         # 'users_paginator': users_paginator,
     }
+
     return render(request, 'index.html', context)
 
 
